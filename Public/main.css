@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .text-normal {
+    line-height: 1.6;
+  }
+
+  .heading {
+    @apply font-bold  text-secondary;
+  }
+
+  .link-hover {
+    @apply text-amber-200;
+  }
+}
+
+.tr-4 {
+  @apply transition-all duration-400 ease-none;
+}
+
+.fade-in {
+  @apply group-hover:opacity-100 group-hover:visible group-hover:pointer-events-auto;
+}
+
+.no-fade {
+  @apply opacity-0 invisible pointer-events-none;
+}

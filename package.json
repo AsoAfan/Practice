@@ -1,0 +1,15 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tailwindcss -i ./public/main.css -o ./public/main.compiled.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.6"
+  }
+}
