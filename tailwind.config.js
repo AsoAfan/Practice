@@ -80,6 +80,14 @@ module.exports = {
         18: "4.5rem",
       },
     }, // extend
+
+    container: {
+      center: true,
+      padding: "0.5rem",
+      screens: {
+        "2xl": "1350px",
+      },
+    },
   },
   plugins: [],
 };
